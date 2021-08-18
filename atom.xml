@@ -6,7 +6,7 @@
   <link href="https://fu-kang.github.io/atom.xml" rel="self"/>
   
   <link href="https://fu-kang.github.io/"/>
-  <updated>2021-08-18T04:09:22.113Z</updated>
+  <updated>2021-08-18T05:10:38.271Z</updated>
   <id>https://fu-kang.github.io/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Matlab基本语法</title>
+    <link href="https://fu-kang.github.io/2021/08/18/fukang/"/>
+    <id>https://fu-kang.github.io/2021/08/18/fukang/</id>
+    <published>2021-08-18T05:10:00.000Z</published>
+    <updated>2021-08-18T05:10:38.271Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Matlab基本语法&quot;&gt;&lt;a href=&quot;#Matlab基本语法&quot; class=&quot;headerlink&quot; title=&quot;Matlab基本语法&quot;&gt;&lt;/a&gt;Matlab基本语法&lt;/h1&gt;&lt;h2 id=&quot;基本小常识&quot;&gt;&lt;a href=&quot;#基本小常识&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="数学建模" scheme="https://fu-kang.github.io/categories/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/"/>
+    
+    
+    <category term="数学建模" scheme="https://fu-kang.github.io/tags/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/"/>
+    
+    <category term="Matlab" scheme="https://fu-kang.github.io/tags/Matlab/"/>
+    
+  </entry>
+  
+  <entry>
     <title>typora-vue-theme主题介绍</title>
     <link href="https://fu-kang.github.io/2021/08/18/hello-world/"/>
     <id>https://fu-kang.github.io/2021/08/18/hello-world/</id>
     <published>2021-08-18T01:25:00.000Z</published>
-    <updated>2021-08-18T04:09:22.113Z</updated>
+    <updated>2021-08-18T05:13:15.939Z</updated>
     
     
       
@@ -41,27 +68,6 @@
     <category term="Typora" scheme="https://fu-kang.github.io/tags/Typora/"/>
     
     <category term="Markdown" scheme="https://fu-kang.github.io/tags/Markdown/"/>
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="https://fu-kang.github.io/2020/09/14/fukang/"/>
-    <id>https://fu-kang.github.io/2020/09/14/fukang/</id>
-    <published>2020-09-14T11:40:46.959Z</published>
-    <updated>2020-09-14T11:41:02.347Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;付康&quot;&gt;&lt;a href=&quot;#付康&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
     
   </entry>
   

@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="typora-vue-theme主题介绍, Fu-Kang&#39;s Blog">
+    <meta name="keywords" content="Matlab基本语法, Fu-Kang&#39;s Blog">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>typora-vue-theme主题介绍 | Fu-Kang&#39;s Blog</title>
+    <title>Matlab基本语法 | Fu-Kang&#39;s Blog</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -313,12 +313,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/1.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/17.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">typora-vue-theme主题介绍</h1>
+                    <h1 class="description center-align post-title">Matlab基本语法</h1>
                 </div>
             </div>
         </div>
@@ -340,12 +340,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/Typora/">
-                                <span class="chip bg-color">Typora</span>
+                            <a href="/tags/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/">
+                                <span class="chip bg-color">数学建模</span>
                             </a>
                         
-                            <a href="/tags/Markdown/">
-                                <span class="chip bg-color">Markdown</span>
+                            <a href="/tags/Matlab/">
+                                <span class="chip bg-color">Matlab</span>
                             </a>
                         
                     </div>
@@ -356,8 +356,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/Markdown/" class="post-category">
-                                Markdown
+                            <a href="/categories/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/" class="post-category">
+                                数学建模
                             </a>
                         
                     </div>
@@ -393,7 +393,126 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>‌今天学习了hexo本地创建博客</p>
+                <h1 id="Matlab基本语法"><a href="#Matlab基本语法" class="headerlink" title="Matlab基本语法"></a>Matlab基本语法</h1><h2 id="基本小常识"><a href="#基本小常识" class="headerlink" title="基本小常识"></a>基本小常识</h2><p>(1) 在每一行的语句后面加上分号(一定要是英文的哦;中文的长这个样子；)表示不显示运行结果</p>
+<p>例如：</p>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">a <span class="token operator">=</span> <span class="token number">5</span><span class="token punctuation">;</span>    <span class="token comment">% 表示不显示运行结果</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>(2) 多行注释: 选中要注释的若干语句, 快捷键Ctrl+R</p>
+<p>(3) 取消注释: 选中要取消注释的语句,快捷键Ctrl+T</p>
+<p>(4) 用于起到初始化作用的代码语句：</p>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">clear<span class="token punctuation">;</span>clc<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<h2 id="输入输出函数"><a href="#输入输出函数" class="headerlink" title="输入输出函数"></a>输入输出函数</h2><p>(1) disp函数</p>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab"><span class="token function">disp</span><span class="token punctuation">(</span><span class="token string">'我是kangkang'</span><span class="token punctuation">)</span>
+a <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">]</span>
+<span class="token function">disp</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
+<p>(2) 字符串的合并(两种)</p>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab"><span class="token comment">% （1）strcat(str1,str2……,strn) </span>
+<span class="token function">strcat</span><span class="token punctuation">(</span><span class="token string">'字符串1'</span><span class="token punctuation">,</span><span class="token string">'字符串2'</span><span class="token punctuation">)</span> 
+<span class="token comment">% （2）[str 1,str 2，……, str n]或[str1  str2  ……  strn]</span>
+<span class="token punctuation">[</span><span class="token string">'字符串1'</span>  <span class="token string">'字符串2'</span><span class="token punctuation">]</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>(3) 数字转化为字符串</p>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">c <span class="token operator">=</span> <span class="token number">100</span>
+<span class="token function">num2str</span><span class="token punctuation">(</span>c<span class="token punctuation">)</span>
+<span class="token function">disp</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token string">'c的取值为'</span> <span class="token function">num2str</span><span class="token punctuation">(</span>c<span class="token punctuation">)</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
+<p>(4) 输入函数</p>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">A <span class="token operator">=</span> <span class="token function">input</span><span class="token punctuation">(</span><span class="token string">'请输入A：'</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<h2 id="sum函数"><a href="#sum函数" class="headerlink" title="sum函数"></a>sum函数</h2><p>（1）如果是向量（无论是行向量还是列向量），都是直接求和。</p>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">E <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">]</span>    <span class="token comment">% 行向量</span>
+<span class="token function">sum</span><span class="token punctuation">(</span>E<span class="token punctuation">)</span>
+E <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">;</span><span class="token number">2</span><span class="token punctuation">;</span><span class="token number">3</span><span class="token punctuation">]</span>    <span class="token comment">% 列向量</span>
+<span class="token function">sum</span><span class="token punctuation">(</span>E<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>（2）如果是矩阵，则需要根据行和列的方向作区分。</p>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">E <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">;</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">;</span><span class="token number">5</span><span class="token punctuation">,</span><span class="token number">6</span><span class="token punctuation">]</span>
+a <span class="token operator">=</span> <span class="token function">sum</span><span class="token punctuation">(</span>E<span class="token punctuation">)</span>       <span class="token comment">%  默认按列求和(得到一个行向量）</span>
+a <span class="token operator">=</span> <span class="token function">sum</span><span class="token punctuation">(</span>E<span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">)</span>     <span class="token comment">%  按列求和(得到一个行向量）</span>
+a <span class="token operator">=</span> <span class="token function">sum</span><span class="token punctuation">(</span>E<span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span>     <span class="token comment">%  按行求和(得到一个列向量）</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>（3）对整个矩阵进行求和</p>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">a <span class="token operator">=</span> <span class="token function">sum</span><span class="token punctuation">(</span><span class="token function">sum</span><span class="token punctuation">(</span>E<span class="token punctuation">)</span><span class="token punctuation">)</span>
+a <span class="token operator">=</span> <span class="token function">sum</span><span class="token punctuation">(</span><span class="token function">E</span><span class="token punctuation">(</span><span class="token operator">:</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<h2 id="取矩阵元素"><a href="#取矩阵元素" class="headerlink" title="取矩阵元素"></a>取矩阵元素</h2><p>（1）取指定行和列的一个元素（输出的是一个值）</p>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">A <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span> <span class="token number">1</span> <span class="token number">4</span> <span class="token number">1</span><span class="token operator">/</span><span class="token number">3</span> <span class="token number">3</span><span class="token punctuation">;</span><span class="token number">1</span> <span class="token number">1</span> <span class="token number">4</span> <span class="token number">1</span><span class="token operator">/</span><span class="token number">3</span> <span class="token number">3</span><span class="token punctuation">;</span><span class="token number">1</span><span class="token operator">/</span><span class="token number">4</span> <span class="token number">1</span><span class="token operator">/</span><span class="token number">4</span> <span class="token number">1</span> <span class="token number">1</span><span class="token operator">/</span><span class="token number">3</span> <span class="token number">1</span><span class="token operator">/</span><span class="token number">2</span><span class="token punctuation">;</span><span class="token number">3</span> <span class="token number">3</span> <span class="token number">3</span> <span class="token number">1</span> <span class="token number">3</span><span class="token punctuation">;</span><span class="token number">1</span><span class="token operator">/</span><span class="token number">3</span> <span class="token number">1</span><span class="token operator">/</span><span class="token number">3</span> <span class="token number">2</span> <span class="token number">1</span><span class="token operator">/</span><span class="token number">3</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token function">A</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">)</span>  <span class="token comment">% 取第二行第一列的元素</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<p>（2）取指定的某一行 / 列 的全部元素（输出的是一个行向量）</p>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab"><span class="token function">A</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token operator">:</span><span class="token punctuation">)</span>   <span class="token comment">% 取第二行的所有元素</span>
+<span class="token function">A</span><span class="token punctuation">(</span><span class="token operator">:</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">)</span>   <span class="token comment">% 取第一列的所有元素</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<p>（3）取指定的某些行的全部元素（输出的是一个矩阵）</p>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab"><span class="token function">A</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token operator">:</span><span class="token punctuation">)</span>      <span class="token comment">% 只取第二行和第五行（一共2行）</span>
+<span class="token function">A</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token operator">:</span><span class="token number">5</span><span class="token punctuation">,</span><span class="token operator">:</span><span class="token punctuation">)</span>        <span class="token comment">% 取第二行到第五行（一共4行）</span>
+<span class="token function">A</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token operator">:</span><span class="token keyword">end</span><span class="token punctuation">,</span><span class="token operator">:</span><span class="token punctuation">)</span>      <span class="token comment">% 取第二行到最后一行</span>
+<span class="token function">A</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token operator">:</span><span class="token number">2</span><span class="token operator">:</span><span class="token number">5</span><span class="token punctuation">,</span><span class="token operator">:</span><span class="token punctuation">)</span>      <span class="token comment">% 取第二行和第四行 （从2开始，每次递增2个单位，到5结束）</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h2 id="size函数"><a href="#size函数" class="headerlink" title="size函数"></a>size函数</h2><p>（1）对于向量来说，返回的是元素的个数</p>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">A <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">,</span><span class="token number">6</span><span class="token punctuation">]</span>
+<span class="token function">size</span><span class="token punctuation">(</span>A<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<p>（2）size(A)函数是用来求矩阵A的大小的,它返回一个行向量，第一个元素是矩阵的行数，第二个元素是矩阵的列数</p>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">A <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">;</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">,</span><span class="token number">6</span><span class="token punctuation">]</span>
+<span class="token punctuation">[</span>r<span class="token punctuation">,</span>c<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token function">size</span><span class="token punctuation">(</span>A<span class="token punctuation">)</span>
+r <span class="token operator">=</span> <span class="token function">size</span><span class="token punctuation">(</span>A<span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">)</span>  <span class="token comment">%  返回行数</span>
+c <span class="token operator">=</span> <span class="token function">size</span><span class="token punctuation">(</span>A<span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span>  <span class="token comment">%  返回列数</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h2 id="repmat函数"><a href="#repmat函数" class="headerlink" title="repmat函数"></a>repmat函数</h2><p>B = repmat(A,m,n)： 将矩阵A复制m×n块，即把A作为B的元素，B由m×n个A平铺而成。</p>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">A <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">;</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">,</span><span class="token number">6</span><span class="token punctuation">]</span>
+B <span class="token operator">=</span> <span class="token function">repmat</span><span class="token punctuation">(</span>A<span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">)</span>
+B <span class="token operator">=</span> <span class="token function">repmat</span><span class="token punctuation">(</span>A<span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
+<h2 id="矩阵计算"><a href="#矩阵计算" class="headerlink" title="矩阵计算"></a>矩阵计算</h2><p>（1）MATLAB在矩阵的运算中， * 号和  / 号代表矩阵之间的乘法与除法(A / B = A * inv(B))</p>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">A <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">;</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">]</span>
+B <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">;</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">]</span>
+A <span class="token operator">*</span> B
+<span class="token function">inv</span><span class="token punctuation">(</span>B<span class="token punctuation">)</span>  <span class="token comment">% 求B的逆矩阵</span>
+B <span class="token operator">*</span> <span class="token function">inv</span><span class="token punctuation">(</span>B<span class="token punctuation">)</span>
+A <span class="token operator">*</span> <span class="token function">inv</span><span class="token punctuation">(</span>B<span class="token punctuation">)</span>
+A <span class="token operator">/</span> B<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>（2）两个形状相同的矩阵对应元素之间的乘除法需要使用“ .* ”和“ ./ ”</p>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">A <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">;</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">]</span>
+B <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">;</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">]</span>
+A <span class="token operator">.*</span> B
+A <span class="token operator">./</span> B<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>（3）每个元素同时和常数相乘或相除操作都可以使用</p>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">A <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">;</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">]</span>
+A <span class="token operator">*</span> <span class="token number">2</span>
+A <span class="token operator">.*</span> <span class="token number">2</span>
+A <span class="token operator">/</span> <span class="token number">2</span> 
+A <span class="token operator">./</span> <span class="token number">2</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>（4）每个元素同时乘方时只能用 .^</p>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">A <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">;</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">]</span>
+A <span class="token operator">.^</span> <span class="token number">2</span>    <span class="token comment">% 表示对每个元素平方</span>
+A <span class="token operator">^</span> <span class="token number">2</span>     <span class="token comment">% 代表的是 A * A</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
+<h2 id="find函数"><a href="#find函数" class="headerlink" title="find函数"></a>find函数</h2><p>find函数，它可以用来返回向量或者矩阵中不为0的元素的位置索引。</p>
+<p>（1）对于向量来说，直接返回索引值。</p>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">X <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span> <span class="token number">0</span> <span class="token number">4</span> <span class="token operator">-</span><span class="token number">3</span> <span class="token number">0</span> <span class="token number">0</span> <span class="token number">0</span> <span class="token number">8</span> <span class="token number">6</span><span class="token punctuation">]</span>
+ind <span class="token operator">=</span> <span class="token function">find</span><span class="token punctuation">(</span>X<span class="token punctuation">)</span>
+ind <span class="token operator">=</span> <span class="token function">find</span><span class="token punctuation">(</span>X<span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span>    <span class="token comment">% 其有多种用法，比如返回前2个不为0的元素的位置：</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
+<p>（2）对于矩阵来说，因为在Matlab在存储矩阵时，是一列一列存储的。所以我们要想返回行列值的话，需要：</p>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">X <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span> <span class="token operator">-</span><span class="token number">3</span> <span class="token number">0</span><span class="token punctuation">;</span><span class="token number">0</span> <span class="token number">0</span> <span class="token number">8</span><span class="token punctuation">;</span><span class="token number">4</span> <span class="token number">0</span> <span class="token number">6</span><span class="token punctuation">]</span>
+<span class="token punctuation">[</span>r<span class="token punctuation">,</span>c<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token function">find</span><span class="token punctuation">(</span>X<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<h2 id="判断语句"><a href="#判断语句" class="headerlink" title="判断语句"></a>判断语句</h2><p>Matlab的判断语句，if所在的行不需要冒号，语句的最后一定要以end结尾 ；中间的语句要注意缩进。</p>
+<pre class="line-numbers language-matlab" data-language="matlab"><code class="language-matlab">a <span class="token operator">=</span> <span class="token function">input</span><span class="token punctuation">(</span><span class="token string">'请输入考试分数:'</span><span class="token punctuation">)</span>
+<span class="token keyword">if</span> a <span class="token operator">&gt;=</span> <span class="token number">85</span>  
+    <span class="token function">disp</span><span class="token punctuation">(</span><span class="token string">'成绩优秀'</span><span class="token punctuation">)</span>
+<span class="token keyword">elseif</span> a <span class="token operator">&gt;=</span> <span class="token number">60</span> 
+    <span class="token function">disp</span><span class="token punctuation">(</span><span class="token string">'成绩合格'</span><span class="token punctuation">)</span>
+<span class="token keyword">else</span>
+    <span class="token function">disp</span><span class="token punctuation">(</span><span class="token string">'成绩挂科'</span><span class="token punctuation">)</span>
+<span class="token keyword">end</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
 
                 
             </div>
@@ -420,7 +539,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://fu-kang.github.io/2021/08/18/hello-world/">https://fu-kang.github.io/2021/08/18/hello-world/</a>
+                    <a href="https://fu-kang.github.io/2021/08/18/fukang/">https://fu-kang.github.io/2021/08/18/fukang/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -458,12 +577,12 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/Typora/">
-                                    <span class="chip bg-color">Typora</span>
+                                <a href="/tags/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/">
+                                    <span class="chip bg-color">数学建模</span>
                                 </a>
                             
-                                <a href="/tags/Markdown/">
-                                    <span class="chip bg-color">Markdown</span>
+                                <a href="/tags/Matlab/">
+                                    <span class="chip bg-color">Matlab</span>
                                 </a>
                             
                         </div>
@@ -635,9 +754,10 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/2021/08/18/fukang/">
                     <div class="card-image">
@@ -655,9 +775,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-08-18
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-08-18
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -670,6 +790,7 @@
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -692,31 +813,31 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/08/11/youkeda/">
+                <a href="/2021/08/18/hello-world/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="第一篇博客">
+                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="typora-vue-theme主题介绍">
                         
-                        <span class="card-title">第一篇博客</span>
+                        <span class="card-title">typora-vue-theme主题介绍</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            这是博客的摘要部分，记录第一篇博客
+                            这是你自定义的文章摘要内容
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-08-11
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-08-18
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Typora/" class="post-category">
-                                    Typora
+                            <a href="/categories/Markdown/" class="post-category">
+                                    Markdown
                                 </a>
                             
                             
