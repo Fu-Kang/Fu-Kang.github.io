@@ -44,13 +44,27 @@
     
     
     <entry>
-      <title>youkeda</title>
+      <title>第一篇博客</title>
       <link href="/2020/08/11/youkeda/"/>
       <url>/2020/08/11/youkeda/</url>
       
         <content type="html"><![CDATA[<p>今天又是元气满满的一天啊</p>]]></content>
       
       
+      <categories>
+          
+          <category> Typora </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Typora </tag>
+            
+            <tag> Markdown </tag>
+            
+        </tags>
       
     </entry>
     

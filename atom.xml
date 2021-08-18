@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Fu-Kang&#39;s Blog</title>
   
-  
+  <subtitle>Believe in yourself</subtitle>
   <link href="https://fu-kang.github.io/atom.xml" rel="self"/>
   
   <link href="https://fu-kang.github.io/"/>
@@ -66,11 +66,11 @@
   </entry>
   
   <entry>
-    <title>youkeda</title>
+    <title>第一篇博客</title>
     <link href="https://fu-kang.github.io/2020/08/11/youkeda/"/>
     <id>https://fu-kang.github.io/2020/08/11/youkeda/</id>
-    <published>2020-08-11T07:47:16.000Z</published>
-    <updated>2020-08-11T07:47:49.793Z</updated>
+    <published>2020-08-11T01:25:00.000Z</published>
+    <updated>2021-08-18T04:34:08.537Z</updated>
     
     
       
@@ -84,6 +84,12 @@
     
     
     
+    <category term="Typora" scheme="https://fu-kang.github.io/categories/Typora/"/>
+    
+    
+    <category term="Typora" scheme="https://fu-kang.github.io/tags/Typora/"/>
+    
+    <category term="Markdown" scheme="https://fu-kang.github.io/tags/Markdown/"/>
     
   </entry>
   
