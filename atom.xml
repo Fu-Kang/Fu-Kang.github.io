@@ -6,7 +6,7 @@
   <link href="https://fu-kang.github.io/atom.xml" rel="self"/>
   
   <link href="https://fu-kang.github.io/"/>
-  <updated>2021-08-19T01:24:28.209Z</updated>
+  <updated>2021-08-19T15:02:21.321Z</updated>
   <id>https://fu-kang.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>typora + picgo + gitee实现图床</title>
+    <link href="https://fu-kang.github.io/2021/08/19/configuration/article-1/"/>
+    <id>https://fu-kang.github.io/2021/08/19/configuration/article-1/</id>
+    <published>2021-08-19T14:54:00.000Z</published>
+    <updated>2021-08-19T15:02:21.321Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;gitee操作&quot;&gt;&lt;a href=&quot;#gitee操作&quot; class=&quot;headerlink&quot; title=&quot;gitee操作&quot;&gt;&lt;/a&gt;gitee操作&lt;/h2&gt;&lt;p&gt;登录gitee账号以后，点击新建仓库：&lt;/p&gt;
+&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="环境配置" scheme="https://fu-kang.github.io/categories/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
+    
+    
+    <category term="Typora" scheme="https://fu-kang.github.io/tags/Typora/"/>
+    
+    <category term="gitee" scheme="https://fu-kang.github.io/tags/gitee/"/>
+    
+  </entry>
   
   <entry>
     <title>Matlab基本语法</title>
@@ -63,34 +91,6 @@
     
     
     <category term="Markdown" scheme="https://fu-kang.github.io/categories/Markdown/"/>
-    
-    
-    <category term="Typora" scheme="https://fu-kang.github.io/tags/Typora/"/>
-    
-    <category term="Markdown" scheme="https://fu-kang.github.io/tags/Markdown/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>第一篇博客</title>
-    <link href="https://fu-kang.github.io/2020/08/11/youkeda/"/>
-    <id>https://fu-kang.github.io/2020/08/11/youkeda/</id>
-    <published>2020-08-11T01:25:00.000Z</published>
-    <updated>2021-08-18T04:34:08.537Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;今天又是元气满满的一天啊&lt;/p&gt;
-</summary>
-        
-      
-    
-    
-    
-    <category term="Typora" scheme="https://fu-kang.github.io/categories/Typora/"/>
     
     
     <category term="Typora" scheme="https://fu-kang.github.io/tags/Typora/"/>

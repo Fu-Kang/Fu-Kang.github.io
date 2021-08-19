@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>typora + picgo + gitee实现图床</title>
+      <link href="/2021/08/19/configuration/article-1/"/>
+      <url>/2021/08/19/configuration/article-1/</url>
+      
+        <content type="html"><![CDATA[<h2 id="gitee操作"><a href="#gitee操作" class="headerlink" title="gitee操作"></a>gitee操作</h2><p>登录gitee账号以后，点击新建仓库：</p><img src="https://gitee.com/Fu--Kang/blog-img/raw/master/20210819225902.png" alt="image-20210819220159065"><p>仓库建好以后，我们点击设置，设置自己的个人token(也就是私人令牌)，新建以后，会自动生成了一段个人token的号码，一定要记清楚，后面配置的时候会需要。</p><p><img src="https://gitee.com/Fu--Kang/blog-img/raw/master/20210819220602.png" alt="image-20210819220601248"></p><h2 id="picgo操作"><a href="#picgo操作" class="headerlink" title="picgo操作"></a>picgo操作</h2><p> 官网下载地址：<a href="https://github.com/Molunerfinn/PicGo">https://github.com/Molunerfinn/PicGo</a></p><p> 版本要求：2.2.0 及以上，我用的是2.2.2</p><p> 下载成功后，打开picgo，会出现如下的界面：</p><p><img src="https://gitee.com/Fu--Kang/blog-img/raw/master/20210819220934.png" alt="image-20210819220933193"></p><p>我们首先点击插件设置，搜索gitee，然后下载gitee-uploader插件，等待下载成功后，在图床设置里面会有对应的gitee选项。</p><p><img src="https://gitee.com/Fu--Kang/blog-img/raw/master/20210819221246.png" alt="image-20210819221244914"></p><p>这里的repo，我们可以打开刚才新建的仓库，然后查看地址栏，会发现对应的网址（<strong>记住去掉对应的码云域名才行</strong>）</p><p><img src="https://gitee.com/Fu--Kang/blog-img/raw/master/20210819221459.png" alt="image-20210819221457888"></p><h2 id="typora操作"><a href="#typora操作" class="headerlink" title="typora操作"></a>typora操作</h2><p>版本要求：0.9.84版本及以上</p><p>打开typora，点击文件 -&gt; 偏好设置，选择图像，上传服务选择PicGo(app)，路径选择picgo下载的路径。</p><p><img src="https://gitee.com/Fu--Kang/blog-img/raw/master/20210819224805.png" alt="image-20210819224549748"></p><p>然后，我们点击验证图片上传选项，进行最后的验证。如果返回true，说明图床配置成功！</p><p><img src="https://gitee.com/Fu--Kang/blog-img/raw/master/20210819224851.png" alt="image-20210819224849280"></p><h2 id="可能遇到的问题"><a href="#可能遇到的问题" class="headerlink" title="可能遇到的问题"></a>可能遇到的问题</h2><p>如果最后验证阶段的时候，程序运行结果返回的是false，那么可能会有以下情况：</p><ol><li>picgo配置的路径是否与仓库路径保持一致</li><li>确认下载的插件是否为gitee-uploader</li><li>在picgo设置里面，把时间戳重命名设置开</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 环境配置 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Typora </tag>
+            
+            <tag> gitee </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Matlab基本语法</title>
       <link href="/2021/08/18/modeling/article-1/"/>
       <url>/2021/08/18/modeling/article-1/</url>
@@ -41,33 +68,6 @@
       <categories>
           
           <category> Markdown </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Typora </tag>
-            
-            <tag> Markdown </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>第一篇博客</title>
-      <link href="/2020/08/11/youkeda/"/>
-      <url>/2020/08/11/youkeda/</url>
-      
-        <content type="html"><![CDATA[<p>今天又是元气满满的一天啊</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Typora </category>
           
       </categories>
       
