@@ -6,7 +6,7 @@
   <link href="https://fu-kang.github.io/atom.xml" rel="self"/>
   
   <link href="https://fu-kang.github.io/"/>
-  <updated>2021-08-19T15:02:21.321Z</updated>
+  <updated>2021-08-20T09:11:37.688Z</updated>
   <id>https://fu-kang.github.io/</id>
   
   <author>
@@ -17,11 +17,42 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>二叉树刷题总结（一）</title>
+    <link href="https://fu-kang.github.io/2021/08/20/algorithm/article-1/"/>
+    <id>https://fu-kang.github.io/2021/08/20/algorithm/article-1/</id>
+    <published>2021-08-20T09:11:00.000Z</published>
+    <updated>2021-08-20T09:11:37.688Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;最近在刷PAT甲级，发现在PAT考试中涉及的两种难度较高的大题，基本都是二叉树和图论的范畴，由此可见树论这块的重要性。在今年蓝桥杯比赛中，也由于平时疏忽了二叉树这块的学习，所以当时有一个15分的二叉树大题，虽然难度不高，但是我却没有写出来，所以就先来总结一下二叉树的有关内容</summary>
+        
+      
+    
+    
+    
+    <category term="算法" scheme="https://fu-kang.github.io/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+    <category term="ACM" scheme="https://fu-kang.github.io/tags/ACM/"/>
+    
+    <category term="二叉树" scheme="https://fu-kang.github.io/tags/%E4%BA%8C%E5%8F%89%E6%A0%91/"/>
+    
+    <category term="算法" scheme="https://fu-kang.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="PAT甲级" scheme="https://fu-kang.github.io/tags/PAT%E7%94%B2%E7%BA%A7/"/>
+    
+  </entry>
+  
+  <entry>
     <title>typora + picgo + gitee实现图床</title>
     <link href="https://fu-kang.github.io/2021/08/19/configuration/article-1/"/>
     <id>https://fu-kang.github.io/2021/08/19/configuration/article-1/</id>
     <published>2021-08-19T14:54:00.000Z</published>
-    <updated>2021-08-19T15:02:21.321Z</updated>
+    <updated>2021-08-20T09:18:06.339Z</updated>
     
     
       
@@ -49,7 +80,7 @@
     <link href="https://fu-kang.github.io/2021/08/18/modeling/article-1/"/>
     <id>https://fu-kang.github.io/2021/08/18/modeling/article-1/</id>
     <published>2021-08-18T05:10:00.000Z</published>
-    <updated>2021-08-19T01:24:28.209Z</updated>
+    <updated>2021-08-20T09:09:51.635Z</updated>
     
     
       
@@ -76,7 +107,7 @@
     <link href="https://fu-kang.github.io/2021/08/18/hello-world/"/>
     <id>https://fu-kang.github.io/2021/08/18/hello-world/</id>
     <published>2021-08-18T01:25:00.000Z</published>
-    <updated>2021-08-18T05:13:15.939Z</updated>
+    <updated>2021-08-20T09:09:27.572Z</updated>
     
     
       
